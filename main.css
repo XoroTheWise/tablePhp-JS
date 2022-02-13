@@ -1,0 +1,111 @@
+.btn-right{
+	height: 30px;
+}
+.btn-right:nth-child(2n){
+	margin-top: 10px;
+}
+.pug-num{
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 10px;
+	height: 20px;
+	border: 1px solid grey;
+	float: left;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+.pug-num.active{
+	background: green;
+}
+.delete_records{
+	margin-top: 10px;
+	height: 30px;
+	float: right;
+}
+p span{
+	color: #0008FF;
+	letter-spacing: 0.8px;
+}
+.formLog{
+	display: block;
+}
+.td_title td{
+	text-align: center;
+	width: auto;
+	height: auto;
+	background-color: grey;
+	padding: 5px;
+}
+.td_record{
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+	border: 1px double grey;
+	word-wrap: break-word;
+}
+.rec_id{
+	width: 20px;
+}
+.rec_fio{
+	width: 80px;
+}
+.rec_email{
+	width: 180px;
+}
+.rec_address{
+	width: 110px;
+}
+.btn-add-user{
+	position: relative;
+	margin-left: 5px;
+	width: 18px;
+	height:18px;
+	border:1px solid black;
+}
+.btn-add-user img{
+	width: 18px;
+	height:18px;
+}
+.btn-add-user:hover{
+	background: grey;
+}
+.btn-clear-user{
+	position: relative;
+	margin-left: 5px;
+	width: 18px;
+	height:18px;
+	border:1px solid black;
+}
+.btn-clear-user img{
+	width: 18px;
+	height:18px;
+}
+.btn-clear-user:hover{
+	background: grey;
+}
+.div-left{
+	float: left;
+}
+.div-right{
+	float: right;
+}
+.div-body{
+	margin: 20px;
+	width: 800px;
+	height: 200px;
+}
+.btn-edit{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+}
+.td-btn-edit-app img{
+	border: 1px solid black;
+	position: relative;
+	width: 17px;
+	height: 17px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
